@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import Link from 'next/link';
 import Head from 'next/head';
 
-import withAnalytics from '../src/hocs/withAnalytics';
+import withAnalytics from '~/hocs/withAnalytics';
 
 const Title = styled.h1`
   color: #069;
@@ -17,7 +17,7 @@ const Home = () => {
       <Head>
         <Title>NextJS</Title>
       </Head>
-      <img src="../static/lich.jpg" width="200" />
+      <img src="../static/cataclysm.jpg" width="300" />
       <Link href="/users">
         <a>Users</a>
       </Link>
