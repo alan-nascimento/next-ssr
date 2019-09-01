@@ -1,5 +1,16 @@
-import React from "react";
+import React from 'react';
 
-export default function pages() {
-  return <h1>Hello World!</h1>;
-}
+import Link from 'next/link';
+
+const Home = () => {
+  return (
+    <div>
+      <h1>Hello World!</h1>
+      <Link href="/users">
+        <a>Users</a>
+      </Link>
+    </div>
+  );
+};
+
+export default Home;
