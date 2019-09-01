@@ -11,6 +11,7 @@ const Home = () => {
       <Head>
         <title>NextJS</title>
       </Head>
+      <img src="../static/lich.jpg" width="200" />
       <h1>Hello World!</h1>
       <Link href="/users">
         <a>Users</a>
